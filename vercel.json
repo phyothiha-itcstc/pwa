@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "mm_web.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "mm_web.py" }
+  ]
+}
